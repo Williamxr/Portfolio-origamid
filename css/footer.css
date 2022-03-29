@@ -35,3 +35,13 @@
   color: #8f8f8f;
   grid-column: 1 / -1;
 }
+
+@media (max-width: 800px){
+  .footer-container{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li{
+    font-size: 1.5rem;
+  }
+}
